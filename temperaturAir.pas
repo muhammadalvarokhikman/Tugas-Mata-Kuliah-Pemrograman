@@ -1,7 +1,7 @@
 program temperaturAir;
 uses crt;
 var
-        T:byte;
+        T:real;
 begin
 clrscr;
         writeln('Selamat datang di program TEMPERATUR AIR(T)');
