@@ -25,8 +25,11 @@ clrscr;
                 writeln('Nilai mahasiswa CD')
         else if((nilai>=40)and(nilai<=49.99)) then
                 writeln('Nilai mahasiswa D')
+        else if(nilai<=40) then
+                writeln('Nilai mahasiswa E')
         else
-                writeln('Nilai mahasiswa E');
+                writeln('Anda Memasukkan nilai yang salah');
+         
 readln;
 readln;
 end.
