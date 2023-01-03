@@ -1,4 +1,5 @@
 Program TabelFungsi;
+{author: Jeon jung alvaro + Kim Kahfiwan}
 Uses crt;
 Var x:real;
 
