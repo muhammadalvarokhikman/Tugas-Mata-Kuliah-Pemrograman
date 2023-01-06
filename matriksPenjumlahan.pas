@@ -62,17 +62,17 @@ for j:=1 to m do
 writeln;
 end;
 
-//Proses pengurangan
+//Proses penjumlahan
 For i:= 1 to n do
 begin
         for j:= 1 to m do
         Begin
-                Mhasil[i,j]:=M1[i,j]-M2[i,j];
+                Mhasil[i,j]:=M1[i,j]+M2[i,j];
         end;
 end;
 
 //Tampilkan Hasil
-Writeln('Matriks Hasil A-B;');
+Writeln('Matriks Hasil A+B;');
 
 for i := 1 to n do
 Begin
