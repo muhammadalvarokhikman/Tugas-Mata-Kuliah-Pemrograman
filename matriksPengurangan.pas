@@ -62,7 +62,7 @@ for j:=1 to m do
 writeln;
 end;
 
-//Proses penjumlahan
+//Proses pengurangan
 For i:= 1 to n do
 begin
         for j:= 1 to m do
@@ -72,7 +72,7 @@ begin
 end;
 
 //Tampilkan Hasil
-Writeln('Matriks Hasil A+B;');
+Writeln('Matriks Hasil A-B;');
 
 for i := 1 to n do
 Begin
