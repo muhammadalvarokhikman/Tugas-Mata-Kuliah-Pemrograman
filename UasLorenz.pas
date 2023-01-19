@@ -12,7 +12,7 @@ begin
   write('Masukkan nilai tinggi : ');
   readln(tinggi);
   luas:= 0.5*alas*tinggi;
-  writeln('Luas segitiga adalah  : ', luas:0:0);
+  writeln('Luas segitiga adalah  : ', luas:0:2);
   writeln('=========================');
   readln;
 end.
